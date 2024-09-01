@@ -21,7 +21,18 @@ function nextHtml_content(file){
 			}
 		);
 }
-
+function toHome(){
+	nextHtml_content('home.html');
+}
+function toDiscover(){
+	nextHtml_content('discover.html');
+}
+function toAbout(){
+	nextHtml_content('about.html');
+}
+function toContactUs(){
+	nextHtml_content('contactUs.html');
+}
 window.onload = function(){
 	nextHtml_content('home.html');
 }
