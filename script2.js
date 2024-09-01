@@ -14,6 +14,7 @@ function load_locomotive_list(){
 	let item_list = '';
 	
 	for(let i=0; i<locomotives.length; i++){
+		console.log(i);
 		item_list += 	'<tr>' +
 			            '<td><!--gap--></td>' +
 			            '<td width="240px">' +
