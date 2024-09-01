@@ -30,6 +30,7 @@ function toHome(){
 }
 function toDiscover(){
 	nextHtml_content('https://dex4short.github.io/All_About_Trains/discover.html');
+	load_locomotive_list();
 }
 function toAbout(){
 	nextHtml_content('https://dex4short.github.io/All_About_Trains/about.html');
