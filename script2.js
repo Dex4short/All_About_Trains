@@ -1,4 +1,5 @@
 
+console.log("creating array");
 const locomotives = [
 	[
 		"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Union_Pacific_Big_Boy_No._4014_in_Pine_Bluffs%2C_Wyoming_July_2023.png/300px-Union_Pacific_Big_Boy_No._4014_in_Pine_Bluffs%2C_Wyoming_July_2023.png",
@@ -8,11 +9,14 @@ const locomotives = [
 	]
 ];
 
-function load_locomotive_list(){									
+function load_locomotive_list(){
+	console.log("loading list");
+	
 	const tableBody = document.getElementById('locomotive_list').querySelector('tbody');
 	const image_src=0, model_name=1, model_description=2, source_link=3;
 	let item_list = '';
 	
+	console.log("executing");
 	for(let i=0; i<locomotives.length; i++){
 		console.log(i);
 		item_list += 	'<tr>' +
@@ -35,9 +39,11 @@ function load_locomotive_list(){
 			        '</tr>';
 	}
 	
+	console.log("execution finnished");
 	tableBody.innerHTML = item_list;
 }
 
 window.onload = function(){
+	console.log("on load");
 	load_locomotive_list();
 }
