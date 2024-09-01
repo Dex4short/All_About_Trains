@@ -26,16 +26,16 @@ function nextHtml_content(file){
 		);
 }
 function toHome(){
-	nextHtml_content('home.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/home.html');
 }
 function toDiscover(){
-	nextHtml_content('discover.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/discover.html');
 }
 function toAbout(){
-	nextHtml_content('about.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/about.html');
 }
 function toContactUs(){
-	nextHtml_content('contactUs.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/contactUs.html');
 }
 function togleMenuButton(menu_button){
 	home_btn.style.backgroundColor = 'white';
