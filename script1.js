@@ -87,13 +87,13 @@ document.addEventListener("DOMContentLoaded", function(){
 		home_btn.borderBottom = '0px solid #FFF';
 	});
 	discover_btn.addEventListener("mouseout", function(){
-		home_btn.borderBottom = '0px solid #FFF';
+		discover_btn.borderBottom = '0px solid #FFF';
 	});
 	about_btn.addEventListener("mouseout", function(){
-		home_btn.borderBottom = '0px solid #FFF';
+		about_btn.borderBottom = '0px solid #FFF';
 	});
 	contactUs_btn.addEventListener("mouseout", function(){
-		home_btn.borderBottom = '0px solid #FFF';
+		contactUs_btn.borderBottom = '0px solid #FFF';
 	});
 });
 
