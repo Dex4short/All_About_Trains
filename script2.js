@@ -14,7 +14,7 @@ const locomotives = [
 	[
 		"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Shropshire_Scotsman.jpg/300px-Shropshire_Scotsman.jpg",
 		"LNER Class A3 4472 Flying Scotsman",
-		"No. 4472 Flying Scotsman is a LNER Class A3 4-6-2 "Pacific" steam locomotive built in 1923 for the London and North Eastern Railway (LNER) at Doncaster Works to a design of Nigel Gresley. It was employed on long-distance express passenger trains on the East Coast Main Line by LNER and its successors, British Railways' Eastern and North Eastern Regions, notably on The Flying Scotsman service between London King's Cross and Edinburgh Waverley after which it was named.",
+		"No. 4472 Flying Scotsman is a LNER Class A3 4-6-2 'Pacific' steam locomotive built in 1923 for the London and North Eastern Railway (LNER) at Doncaster Works to a design of Nigel Gresley. It was employed on long-distance express passenger trains on the East Coast Main Line by LNER and its successors, British Railways' Eastern and North Eastern Regions, notably on The Flying Scotsman service between London King's Cross and Edinburgh Waverley after which it was named.",
 		"https://en.wikipedia.org/wiki/LNER_Class_A3_4472_Flying_Scotsman"
 	]
 ];
