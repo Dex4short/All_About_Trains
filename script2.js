@@ -1,5 +1,5 @@
 
-let locomotives = [
+const locomotives = [
 	[
 		"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Union_Pacific_Big_Boy_No._4014_in_Pine_Bluffs%2C_Wyoming_July_2023.png/300px-Union_Pacific_Big_Boy_No._4014_in_Pine_Bluffs%2C_Wyoming_July_2023.png",
 		"Union Pacific Big Boy",
@@ -19,7 +19,7 @@ function load_locomotive_list(){
 						'<!--gap-->' +
 					'</td>' +
 					'<td width=240px>' +
-						'<img src=' + locomotives[i][image_src] + 'width=240px height=180px>' +
+						'<img src="' + locomotives[i][image_src] + '" width=240px height=180px>' +
 					'</td>' +
 					'<td width=500px style="padding:20px; background-color:#F6F6F6;">' +
 						'<p>
@@ -28,7 +28,7 @@ function load_locomotive_list(){
 						'<p>' +
 							locomotives[i][model_description] +
 						'</p>' +
-						'<a href=' + locomotives[i][source_link] + '>' +
+						'<a href="' + locomotives[i][source_link] + '" >' +
 							locomotives[i][source_link] +
 						'</a>' +
 					'</td>' +
