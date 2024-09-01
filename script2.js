@@ -14,28 +14,28 @@ function load_locomotive_list(){
 	let item_list = '';
 	
 	for(let i=0; i<locomotives.length; i++){
-		item_list += 	'<tr>
-							<td>
-								<!--gap-->
-							</td>
-							<td width=240px>
-								<img src=locomotives[i][image_src] width=240px height=180px>
-							</td>
-							<td width=500px style="padding:20px; background-color:#F6F6F6;">
-								<p>
-									<b>locomotives[i][model_name]</b>
-								</p>
-								<p>
-									locomotives[i][model_description]
-								</p>
-								<a href=locomotives[i][source_link]>
-									locomotives[i][source_link]
-								</a>
-							</td>
-							<td>
-								<!--gap-->
-							</td>
-						</tr>';
+		item_list += 	'<tr>' +
+					'<td>' +
+						'<!--gap-->' +
+					'</td>' +
+					'<td width=240px>' +
+						'<img src=' + locomotives[i][image_src] + 'width=240px height=180px>' +
+					'</td>' +
+					'<td width=500px style="padding:20px; background-color:#F6F6F6;">' +
+						'<p>
+							'<b>' + locomotives[i][model_name]</b>' +
+						'</p>' +
+						'<p>' +
+							locomotives[i][model_description] +
+						'</p>' +
+						'<a href=' + locomotives[i][source_link] + '>' +
+							locomotives[i][source_link] +
+						'</a>' +
+					'</td>' +
+					'<td>' +
+						'<!--gap-->' +
+					'</td>' +
+				'</tr>';
 	}
 	
 	tableBody.innerHTML = item_list;
