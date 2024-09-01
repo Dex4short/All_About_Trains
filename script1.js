@@ -1,3 +1,7 @@
+const home_btn      = document.getElementById("home");
+const discover_btn  = document.getElementById("discover");
+const about_btn     = document.getElementById("about");
+const contactUs_btn = document.getElementById("contactUs");
 
 function nextHtml_content(file){
 	fetch(file)
@@ -54,11 +58,6 @@ function highlightMenuButton(menu_button){
 	
 	menu_button.style.border-bottom = '5px solid #E0A329';
 }
-
-const home_btn      = document.getElementById("home");
-const discover_btn  = document.getElementById("discover");
-const about_btn     = document.getElementById("about");
-const contactUs_btn = document.getElementById("contactUs");
 
 document.addEventListener("DOMContentLoaded", function(){
 	
