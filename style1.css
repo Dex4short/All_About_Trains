@@ -34,7 +34,6 @@ footer{
 	font-weight: bold;
 	color: white;
 }
-
 .title{
 	font-family: 'Times New Roman';
 	font-size: 78px;
@@ -86,6 +85,9 @@ footer{
 	height: 70px;
 	
 	size: fixed;
+}
+.menu_button_clcikable{
+	cursor: pointer;
 }
 .info_panel1{
 	background-color: #F6F6F6;
