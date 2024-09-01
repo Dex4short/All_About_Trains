@@ -73,13 +73,13 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 function togleMenuButton(menu_button){
 	home_btn.style.backgroundColor = 'white';
-	home_btn.style.color = 'blick';
+	home_btn.style.color = 'black';
 	discover_btn.style.backgroundColor = 'white';
-	discover_btn.style.color = 'blick';
+	discover_btn.style.color = 'black';
 	about_btn.style.backgroundColor = 'white';
-	about_btn.style.color = 'blick';
+	about_btn.style.color = 'black';
 	contactUs_btn.style.backgroundColor = 'white';
-	contactUs_btn.style.color = 'blick';
+	contactUs_btn.style.color = 'black';
 	
 	menu_button.style.backgroundColor = '#326B45';
 	menu_button.style.color = 'white';
