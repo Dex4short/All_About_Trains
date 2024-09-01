@@ -3,7 +3,7 @@ const discover_btn  = document.getElementById("discover");
 const about_btn     = document.getElementById("about");
 const contactUs_btn = document.getElementById("contactUs");
 
-function nextHtml_content(file){
+function nextHtml_content(file, n){
 	fetch(file)
 		.then(
 			response => {
@@ -16,6 +16,10 @@ function nextHtml_content(file){
 		.then(
 			data => {
 				document.getElementById('content_pane').innerHTML = data;
+				if(n == 1){
+					console.log("load_locomotive_list");
+					load_locomotive_list();
+				}	
 			}
 		)
 		.catch(
@@ -26,19 +30,17 @@ function nextHtml_content(file){
 		);
 }
 function toHome(){
-	nextHtml_content('https://dex4short.github.io/All_About_Trains/home.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/home.html', 0);
 }
 function toDiscover(){
 	console.log("to discover");
-	nextHtml_content('https://dex4short.github.io/All_About_Trains/discover.html');
-	console.log("load_locomotive_list");
-	load_locomotive_list();
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/discover.html', 1);
 }
 function toAbout(){
-	nextHtml_content('https://dex4short.github.io/All_About_Trains/about.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/about.html', 2);
 }
 function toContactUs(){
-	nextHtml_content('https://dex4short.github.io/All_About_Trains/contactUs.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/contactUs.html', 3);
 }
 function togleMenuButton(menu_button){
 	home_btn.style.backgroundColor = 'white';
