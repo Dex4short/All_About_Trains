@@ -1,6 +1,3 @@
-body {
-	
-}
 header {
 	background-color: #326B45;
 	background-image: url('https://dex4short.github.io/All_About_Trains/img1.png');
@@ -9,7 +6,7 @@ header {
 	background-size: 100% auto;
 	
 	margin: -10px;
-	height: 50%;
+	height: 400px;
 	align-content: center;
 	
 	text-align: center;
