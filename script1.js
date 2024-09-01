@@ -71,5 +71,5 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 window.onload = function(){
-	nextHtml_content('home.html');
+	nextHtml_content('https://dex4short.github.io/All_About_Trains/home.html');
 }
