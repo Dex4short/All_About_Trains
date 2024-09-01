@@ -83,16 +83,16 @@ document.addEventListener("DOMContentLoaded", function(){
 	});
 
 	home_btn.addEventListener('mouseout', function(){	
-		home_btn.borderBottom = '0px solid #FFFFFF';
+		home_btn.borderBottom = '5px solid white';
 	});
 	discover_btn.addEventListener('mouseout', function(){
-		discover_btn.borderBottom = '0px solid #FFFFFF';
+		discover_btn.borderBottom = '5px solid white';
 	});
 	about_btn.addEventListener('mouseout', function(){
-		about_btn.borderBottom = '0px solid #FFFFFF';
+		about_btn.borderBottom = '5px solid white';
 	});
 	contactUs_btn.addEventListener('mouseout', function(){
-		contactUs_btn.borderBottom = '0px solid #FFFFFF';
+		contactUs_btn.borderBottom = '5px solid white';
 	});
 });
 
