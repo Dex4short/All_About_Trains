@@ -33,6 +33,27 @@ function toAbout(){
 function toContactUs(){
 	nextHtml_content('contactUs.html');
 }
+function togleMenuButton(menu_button){
+	home_btn.style.backgroundColor = 'white';
+	home_btn.style.color = 'black';
+	discover_btn.style.backgroundColor = 'white';
+	discover_btn.style.color = 'black';
+	about_btn.style.backgroundColor = 'white';
+	about_btn.style.color = 'black';
+	contactUs_btn.style.backgroundColor = 'white';
+	contactUs_btn.style.color = 'black';
+	
+	menu_button.style.backgroundColor = '#326B45';
+	menu_button.style.color = 'white';
+}
+function highlightMenuButton(menu_button){
+	home_btn.style.border-bottom = '0px solid #FFF';
+	discover_btn.border-bottom = '0px solid #FFF';
+	about_btn.style.border-bottom = '0px solid #FFF';	
+	contactUs_btn.border-bottom = '0px solid #FFF';
+	
+	menu_button.style.border-bottom = '5px solid #E0A329';
+}
 
 const home_btn      = document.getElementById("home");
 const discover_btn  = document.getElementById("discover");
@@ -59,31 +80,18 @@ document.addEventListener("DOMContentLoaded", function(){
 	});
 	
 	home_btn.addEventListener("click", function(){
-		
+		highlightMenuButton(home_btn);
 	});
 	discover_btn.addEventListener("click", function(){
-		
+		highlightMenuButton(discover_btn);
 	});
 	about_btn.addEventListener("click", function(){
-		
+		highlightMenuButton(about_btn);
 	});
 	contactUs_btn.addEventListener("click", function(){
-		
+		highlightMenuButton(contactUs_btn);
 	});
 });
-function togleMenuButton(menu_button){
-	home_btn.style.backgroundColor = 'white';
-	home_btn.style.color = 'black';
-	discover_btn.style.backgroundColor = 'white';
-	discover_btn.style.color = 'black';
-	about_btn.style.backgroundColor = 'white';
-	about_btn.style.color = 'black';
-	contactUs_btn.style.backgroundColor = 'white';
-	contactUs_btn.style.color = 'black';
-	
-	menu_button.style.backgroundColor = '#326B45';
-	menu_button.style.color = 'white';
-}
 
 window.onload = function(){
 	nextHtml_content('home.html');
