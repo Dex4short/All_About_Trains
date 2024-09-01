@@ -78,16 +78,16 @@ document.addEventListener("DOMContentLoaded", function(){
 		togleMenuButton(contactUs_btn);
 	});
 	
-	home_btn.addEventListener("click", function(){
+	home_btn.addEventListener("mouseover", function(){
 		highlightMenuButton(home_btn);
 	});
-	discover_btn.addEventListener("click", function(){
+	discover_btn.addEventListener("mouseover", function(){
 		highlightMenuButton(discover_btn);
 	});
-	about_btn.addEventListener("click", function(){
+	about_btn.addEventListener("mouseover", function(){
 		highlightMenuButton(about_btn);
 	});
-	contactUs_btn.addEventListener("click", function(){
+	contactUs_btn.addEventListener("mouseover", function(){
 		highlightMenuButton(contactUs_btn);
 	});
 });
