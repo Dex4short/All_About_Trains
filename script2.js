@@ -36,7 +36,4 @@ function load_locomotive_list(){
 	tableBody.innerHTML = item_list;
 }
 
-window.onload = function(){
-	load_locomotive_list();
-}
-
+load_locomotive_list();
