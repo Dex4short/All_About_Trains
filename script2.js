@@ -4,6 +4,12 @@ const locomotives = [
 		"Union Pacific Big Boy",
 		"The Union Pacific Big Boy is a type of simple articulated 4-8-8-4 steam locomotive manufactured by the American Locomotive Company (ALCO) between 1941 and 1944 and operated by the Union Pacific Railroad in revenue service until 1962.",
 		"https://en.wikipedia.org/wiki/Union_Pacific_Big_Boy"
+	],
+	[
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GWR_4079_Pendennis_Castle_Didcot_Railway_Centre_4th_March_2023.jpg/300px-GWR_4079_Pendennis_Castle_Didcot_Railway_Centre_4th_March_2023.jpg",
+		"GWR 4073 Class",
+		"The 4073 or Castle Class are 4-6-0 steam locomotives of the Great Western Railway, built between 1923 and 1950.[2] They were designed by the railway's Chief Mechanical Engineer, Charles Collett, for working the company's express passenger trains. They could reach speeds of up to 100 mph (160 km/h).[3]",
+		"https://en.wikipedia.org/wiki/GWR_4073_Class"
 	]
 ];
 
