@@ -52,48 +52,47 @@ function togleMenuButton(menu_button){
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-	
-	home_btn.addEventListener("click", function(){
+	home_btn.addEventListener('click', function(){
 		toHome();
 		togleMenuButton(home_btn);
 	});
-	discover_btn.addEventListener("click", function(){
+	discover_btn.addEventListener('click', function(){
 		toDiscover();
 		togleMenuButton(discover_btn);
 	});
-	about_btn.addEventListener("click", function(){
+	about_btn.addEventListener('click', function(){
 		toAbout();
 		togleMenuButton(about_btn);
 	});
-	contactUs_btn.addEventListener("click", function(){
+	contactUs_btn.addEventListener('click', function(){
 		toContactUs();
 		togleMenuButton(contactUs_btn);
 	});
 	
-	home_btn.addEventListener("mouseover", function(){
+	home_btn.addEventListener('mouseover', function(){
 		home_btn.style.borderBottom = '5px solid #E0A329';
 	});
-	discover_btn.addEventListener("mouseover", function(){
+	discover_btn.addEventListener('mouseover', function(){
 		discover_btn.style.borderBottom = '5px solid #E0A329';
 	});
-	about_btn.addEventListener("mouseover", function(){
+	about_btn.addEventListener('mouseover', function(){
 		about_btn.style.borderBottom = '5px solid #E0A329';
 	});
-	contactUs_btn.addEventListener("mouseover", function(){
+	contactUs_btn.addEventListener('mouseover', function(){
 		contactUs_btn.style.borderBottom = '5px solid #E0A329';
 	});
 
-	home_btn.addEventListener("mouseout", function(){	
-		home_btn.borderBottom = '0px solid #FFF';
+	home_btn.addEventListener('mouseout', function(){	
+		home_btn.borderBottom = '0px solid #FFFFFF';
 	});
-	discover_btn.addEventListener("mouseout", function(){
-		discover_btn.borderBottom = '0px solid #FFF';
+	discover_btn.addEventListener('mouseout', function(){
+		discover_btn.borderBottom = '0px solid #FFFFFF';
 	});
-	about_btn.addEventListener("mouseout", function(){
-		about_btn.borderBottom = '0px solid #FFF';
+	about_btn.addEventListener('mouseout', function(){
+		about_btn.borderBottom = '0px solid #FFFFFF';
 	});
-	contactUs_btn.addEventListener("mouseout", function(){
-		contactUs_btn.borderBottom = '0px solid #FFF';
+	contactUs_btn.addEventListener('mouseout', function(){
+		contactUs_btn.borderBottom = '0px solid #FFFFFF';
 	});
 });
 
