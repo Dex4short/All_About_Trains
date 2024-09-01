@@ -50,14 +50,6 @@ function togleMenuButton(menu_button){
 	menu_button.style.backgroundColor = '#326B45';
 	menu_button.style.color = 'white';
 }
-function highlightMenuButton(menu_button){
-	home_btn.style.borderBottom = '0px solid #FFF';
-	discover_btn.borderBottom = '0px solid #FFF';
-	about_btn.style.borderBottom = '0px solid #FFF';	
-	contactUs_btn.borderBottom = '0px solid #FFF';
-	
-	menu_button.style.borderBottom = '5px solid #E0A329';
-}
 
 document.addEventListener("DOMContentLoaded", function(){
 	
@@ -79,16 +71,29 @@ document.addEventListener("DOMContentLoaded", function(){
 	});
 	
 	home_btn.addEventListener("mouseover", function(){
-		highlightMenuButton(home_btn);
+		home_btn.style.borderBottom = '5px solid #E0A329';
 	});
 	discover_btn.addEventListener("mouseover", function(){
-		highlightMenuButton(discover_btn);
+		discover_btn.style.borderBottom = '5px solid #E0A329';
 	});
 	about_btn.addEventListener("mouseover", function(){
-		highlightMenuButton(about_btn);
+		about_btn.style.borderBottom = '5px solid #E0A329';
 	});
 	contactUs_btn.addEventListener("mouseover", function(){
-		highlightMenuButton(contactUs_btn);
+		contactUs_btn.style.borderBottom = '5px solid #E0A329';
+	});
+
+	home_btn.addEventListener("mouseout", function(){	
+		home_btn.borderBottom = '0px solid #FFF';
+	});
+	discover_btn.addEventListener("mouseout", function(){
+		home_btn.borderBottom = '0px solid #FFF';
+	});
+	about_btn.addEventListener("mouseout", function(){
+		home_btn.borderBottom = '0px solid #FFF';
+	});
+	contactUs_btn.addEventListener("mouseout", function(){
+		home_btn.borderBottom = '0px solid #FFF';
 	});
 });
 
