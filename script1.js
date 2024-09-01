@@ -34,11 +34,12 @@ function toContactUs(){
 	nextHtml_content('contactUs.html');
 }
 
+const home_btn      = document.getElementById("home");
+const discover_btn  = document.getElementById("discover");
+const about_btn     = document.getElementById("about");
+const contactUs_btn = document.getElementById("contactUs");
+
 document.addEventListener("DOMContentLoaded", function(){
-	const home_btn      = document.getElementById("home");
-	const discover_btn  = document.getElementById("discover");
-	const about_btn     = document.getElementById("about");
-	const contactUs_btn = document.getElementById("contactUs");
 	
 	home_btn.addEventListener("click", function(){
 		toHome();
