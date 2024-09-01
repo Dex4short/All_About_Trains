@@ -51,12 +51,12 @@ function togleMenuButton(menu_button){
 	menu_button.style.color = 'white';
 }
 function highlightMenuButton(menu_button){
-	home_btn.style.border-bottom = '0px solid #FFF';
-	discover_btn.border-bottom = '0px solid #FFF';
-	about_btn.style.border-bottom = '0px solid #FFF';	
-	contactUs_btn.border-bottom = '0px solid #FFF';
+	home_btn.style.borderBottom = '0px solid #FFF';
+	discover_btn.borderBottom = '0px solid #FFF';
+	about_btn.style.borderBottom = '0px solid #FFF';	
+	contactUs_btn.borderBottom = '0px solid #FFF';
 	
-	menu_button.style.border-bottom = '5px solid #E0A329';
+	menu_button.style.borderBottom = '5px solid #E0A329';
 }
 
 document.addEventListener("DOMContentLoaded", function(){
