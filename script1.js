@@ -73,6 +73,32 @@ document.addEventListener("DOMContentLoaded", function(){
 		toContactUs();
 		togleMenuButton(contactUs_btn);
 	});
+		
+	home_btn.addEventListener('mouseover', function(){
+		home_btn.style.borderBottom = '5px solid #E0A329';
+	});
+	discover_btn.addEventListener('mouseover', function(){
+		discover_btn.style.borderBottom = '5px solid #E0A329';
+	});
+	about_btn.addEventListener('mouseover', function(){
+		about_btn.style.borderBottom = '5px solid #E0A329';
+	});
+	contactUs_btn.addEventListener('mouseover', function(){
+		contactUs_btn.style.borderBottom = '5px solid #E0A329';
+	});
+
+	home_btn.addEventListener('mouseout', function(){	
+		home_btn.style.borderBottom = '0px solid white';
+	});
+	discover_btn.addEventListener('mouseout', function(){
+		discover_btn.style.borderBottom = '0px solid white';
+	});
+	about_btn.addEventListener('mouseout', function(){
+		about_btn.style.borderBottom = '0px solid white';
+	});
+	contactUs_btn.addEventListener('mouseout', function(){
+		contactUs_btn.style.borderBottom = '0px solid white';
+	});
 });
 
 window.onload = function(){
