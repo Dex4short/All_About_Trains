@@ -34,6 +34,12 @@ const locomotives = [
 		"Prussian P 8 DRG Class 38.10–40",
 		"The Prussian Class P 8 of the Prussian state railways (DRG Class 38.10-40 of the Deutsche Reichsbahn) was a 4-6-0 steam locomotive built from 1906 to 1923 by the Berliner Maschinenbau (previously Schwartzkopff) and twelve other German factories. The design was created by Robert Garbe. It was intended as a successor to the Prussian P 6, which was regarded as unsatisfactory.",
 		"https://en.wikipedia.org/wiki/Prussian_P_8"
+	],
+	[
+		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsyuhjn2LSN667_HC6fqWDYzlnc8jFMgR4ydfCVlzptDgwDLCKRCfIXWuOsjgdWLnYNzE&usqp=CAU",
+		"Pennsylvania Railroad K4 class",
+		"The Pennsylvania Railroad K4 was a class of 425 4-6-2 steam locomotives built between 1914 and 1928 for the PRR, where they served as the primary main line passenger steam locomotives on the entire PRR system until late 1957.",
+		"https://en.wikipedia.org/wiki/Pennsylvania_Railroad_K4_class"
 	]
 ];
 
