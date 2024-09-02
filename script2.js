@@ -56,7 +56,6 @@ function load_locomotive_list(key_word){
 	let item_list = '';
 	let search=false, found=false;
 
-	key_word = key_word.toLowerCase();
 	if(key_word){
 		search = true;
 	}
@@ -64,7 +63,7 @@ function load_locomotive_list(key_word){
 	tableBody.innerHTML = item_list;
 	for(let i=0; i<locomotives.length; i++){
 		if(search){
-			if(!locomotives[i][model_name].includes(key_word)){
+			if(!locomotives[i][model_name].toLowerCase().includes(key_word)){
 				continue;
 			}
 		}
