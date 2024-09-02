@@ -20,7 +20,6 @@ function nextHtml_content(file, n){
 			data => {
 				document.getElementById('content_pane').innerHTML = data;
 				if(n == 1){
-					console.log("load_locomotive_list");
 					load_locomotive_list('');
 				}	
 			}
@@ -36,7 +35,6 @@ function toHome(){
 	nextHtml_content('https://dex4short.github.io/All_About_Trains/home.html', 0);
 }
 function toDiscover(){
-	console.log("to discover");
 	nextHtml_content('https://dex4short.github.io/All_About_Trains/discover.html', 1);
 }
 function toAbout(){
