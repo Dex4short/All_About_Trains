@@ -25,7 +25,7 @@ function nextHtml_content(file, n){
 		.catch(
 			error => {
 				console.error('Error loading content:', error);
-                		document.getElementById('content_pane').innerHTML = '<p align="center">Error loading content. Please try again later.</p>';
+                		document.getElementById('content_pane').innerHTML = '<p align="center">Error loading content. Please connect to the internet.</p>';
 			}
 		);
 }
