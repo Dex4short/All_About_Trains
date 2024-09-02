@@ -1,3 +1,6 @@
+const search_bar    = document.getElementById("search_bar");
+const search_btn    = document.getElementById("search_btn");
+
 const home_btn      = document.getElementById("home");
 const discover_btn  = document.getElementById("discover");
 const about_btn     = document.getElementById("about");
