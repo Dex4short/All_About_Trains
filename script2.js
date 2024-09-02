@@ -16,6 +16,24 @@ const locomotives = [
 		"LNER Class A3 4472 Flying Scotsman",
 		"No. 4472 Flying Scotsman is a LNER Class A3 4-6-2 'Pacific' steam locomotive built in 1923 for the London and North Eastern Railway (LNER) at Doncaster Works to a design of Nigel Gresley. It was employed on long-distance express passenger trains on the East Coast Main Line by LNER and its successors, British Railways' Eastern and North Eastern Regions, notably on The Flying Scotsman service between London King's Cross and Edinburgh Waverley after which it was named.",
 		"https://en.wikipedia.org/wiki/LNER_Class_A3_4472_Flying_Scotsman"
+	],
+	[
+		"http://www.railalbum.co.uk/steam-locomotives/images-lnera4/60007-090228_2_cossington_2078-c1.jpg",
+		"LNER Class A4",
+		"The LNER Class A4 is a class of streamlined 4-6-2 steam locomotive designed by Nigel Gresley for the London and North Eastern Railway in 1935. Their streamlined design gave them high-speed capability as well as making them instantly recognisable, and one of the class, 4468 Mallard, holds the record as the world's fastest steam locomotive.",
+		"https://en.wikipedia.org/wiki/LNER_Class_A4"
+	],
+	[
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Grand_Trunk_Western_No._6039.png/300px-Grand_Trunk_Western_No._6039.png",
+		"Grand Trunk Western 6039",
+		"Grand Trunk Western No. 6039 is a preserved class 'U-1-c' 4-8-2 'Mountain type' steam locomotive built in June 1925 by Baldwin.[1] It served the Grand Trunk Western Railroad by pulling fast passenger and freight trains throughout the Lower Peninsula of Michigan, until the railroad decided to dieselize their locomotive fleet.",
+		"https://en.wikipedia.org/wiki/Grand_Trunk_Western_6039"
+	],
+	[
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/P8_Kranichstein.jpg/300px-P8_Kranichstein.jpg",
+		"Prussian P 8 DRG Class 38.10–40",
+		"The Prussian Class P 8 of the Prussian state railways (DRG Class 38.10-40 of the Deutsche Reichsbahn) was a 4-6-0 steam locomotive built from 1906 to 1923 by the Berliner Maschinenbau (previously Schwartzkopff) and twelve other German factories. The design was created by Robert Garbe. It was intended as a successor to the Prussian P 6, which was regarded as unsatisfactory.",
+		"https://en.wikipedia.org/wiki/Prussian_P_8"
 	]
 ];
 
