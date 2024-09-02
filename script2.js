@@ -18,9 +18,9 @@ const locomotives = [
 		"https://en.wikipedia.org/wiki/LNER_Class_A3_4472_Flying_Scotsman"
 	],
 	[
-		"http://www.railalbum.co.uk/steam-locomotives/images-lnera4/60007-090228_2_cossington_2078-c1.jpg",
-		"LNER Class A4",
-		"The LNER Class A4 is a class of streamlined 4-6-2 steam locomotive designed by Nigel Gresley for the London and North Eastern Railway in 1935. Their streamlined design gave them high-speed capability as well as making them instantly recognisable, and one of the class, 4468 Mallard, holds the record as the world's fastest steam locomotive.",
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/LNER_Gresley_Class_%22A4%22_4-6-2_No.60007_-_5371152920.jpg/300px-LNER_Gresley_Class_%22A4%22_4-6-2_No.60007_-_5371152920.jpg",
+		"LNER Class A4 4498 Sir Nigel Gresley",
+		"60007 Sir Nigel Gresley is an LNER Class A4 4-6-2 ('Pacific') steam locomotive built to a design of Sir Nigel Gresley in 1937 at Doncaster Works for operation on the London and North Eastern Railway (LNER). The locomotive holds the post-war speed record for steam locomotives on British Railways. The locomotive was withdrawn from service in 1966 and purchased for preservation the same year; it is one of six A4s to be preserved.",
 		"https://en.wikipedia.org/wiki/LNER_Class_A4"
 	],
 	[
