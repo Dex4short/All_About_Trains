@@ -21,7 +21,7 @@ function nextHtml_content(file, n){
 				document.getElementById('content_pane').innerHTML = data;
 				if(n == 1){
 					console.log("load_locomotive_list");
-					load_locomotive_list();
+					load_locomotive_list('');
 				}	
 			}
 		)
