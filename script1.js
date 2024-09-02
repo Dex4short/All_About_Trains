@@ -77,10 +77,11 @@ function highlightArea(element, text) {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
+	
 	search_btn.addEventListener('click', function() {
 		const key_word = search_bar.value.toLowerCase();
 		if(key_word){
-			document.querySelectorAll('.highlight').forEach(element){
+			document.querySelectorAll('.highlight').forEach( function(element) {
 				element.immerHTML = element.innerHTML.replace(/<span class="highlight">(.*?)<\/span>/g, '$1');
 				element.classList.remove('highlight');
 			});
