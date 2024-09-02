@@ -21,7 +21,8 @@ function nextHtml_content(file, n){
 				document.getElementById('content_pane').innerHTML = data;
 				switch(n){
 				case 1:
-					load_locomotive_list('');
+					const key_word = search_bar.value.toLowerCase();
+					load_locomotive_list(key_word);
 					break
 				}	
 			}
@@ -60,8 +61,8 @@ function togleMenuButton(menu_button){
 }
 document.addEventListener("DOMContentLoaded", function(){
 	search_btn.addEventListener('click', function() {
-		const key_word = search_bar.value.toLowerCase();
-		load_locomotive_list(key_word);
+		toDiscover();
+		togleMenuButton(discover_btn);
 	});
 	
 	home_btn.addEventListener('click', function(){
