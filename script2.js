@@ -40,6 +40,12 @@ const locomotives = [
 		"Pennsylvania Railroad K4 class",
 		"The Pennsylvania Railroad K4 was a class of 425 4-6-2 steam locomotives built between 1914 and 1928 for the PRR, where they served as the primary main line passenger steam locomotives on the entire PRR system until late 1957.",
 		"https://en.wikipedia.org/wiki/Pennsylvania_Railroad_K4_class"
+	],
+	[
+		"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/3751_in_the_yard_July_2017.jpg/300px-3751_in_the_yard_July_2017.jpg",
+		"Santa Fe 3751",
+		"Atchison, Topeka and Santa Fe 3751 is a class '3751' 4-8-4 'Heavy Mountain' type steam locomotive built in May 1927 by the Baldwin Locomotive Works in Eddystone (Philadelphia), Pennsylvania for the Atchison, Topeka & Santa Fe Railway (ATSF). No. 3751 was the first 4-8-4 steam locomotive built for the Santa Fe and was referenced in documentation as type: 'Heavy Mountain', 'New Mountain', or 'Mountain 4-wheel trailer'. No. 3751 served in passenger duties until being retired in 1953.",
+		"https://en.wikipedia.org/wiki/Santa_Fe_3751"
 	]
 ];
 
