@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function(){
 				element.immerHTML = element.innerHTML.replace(/<span class="highlight">(.*?)<\/span>/g, '$1');
 				element.classList.remove('highlight');
 			});
-			highlightArea(document.body, keyword);
+			highlightArea(document.body, key_word);
 		}
 	});
 	
