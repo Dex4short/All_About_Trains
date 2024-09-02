@@ -49,12 +49,26 @@ const locomotives = [
 	]
 ];
 
-function load_locomotive_list(){
+function load_locomotive_list(key_word){
 	const tableBody = document.getElementById('locomotive_list');
 	const image_src=0, model_name=1, model_description=2, source_link=3;
+	
 	let item_list = '';
+	let search=false, found=false;
 
+	key_word = key_word.toLowerCase();
+	if(key_word){
+		search = true;
+	}
+	
+	tableBody.innerHTML = item_list;
 	for(let i=0; i<locomotives.length; i++){
+		if(search){
+			if(!locomotives[i][model_name].includes(key_word)){
+				continue;
+			}
+		}
+		
 		item_list += 	'<tr>' +
 			            '<td><!--gap--></td>' +
 			            '<td width="240px">' +
