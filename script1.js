@@ -70,7 +70,7 @@ function highlightArea(element, text) {
 					parent.classList.add('highlight');
 				}
 			} else if (child.nodeType === Node.ELEMENT_NODE) {
-			    highlightText(child, text);
+			    highlightArea(child, text);
 			}
 		});
 	}
