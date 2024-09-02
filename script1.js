@@ -58,8 +58,36 @@ function togleMenuButton(menu_button){
 	menu_button.style.backgroundColor = '#326B45';
 	menu_button.style.color = 'white';
 }
+function highlightArea(element, text){
+	if (element.hasChildNodes()) {
+            element.childNodes.forEach(function(child) {
+                if (child.nodeType === Node.TEXT_NODE) {
+                    const parent = child.parentNode;
+                    const regex = new RegExp(`(${text})`, 'gi');
+                    const newHTML = child.textContent.replace(regex, '<span class="highlight">$1</span>');
+                    if (newHTML !== child.textContent) {
+                        parent.innerHTML = parent.innerHTML.replace(child.textContent, newHTML);
+                        parent.classList.add('highlight');
+                    }
+                } else if (child.nodeType === Node.ELEMENT_NODE) {
+                    highlightText(child, text);
+                }
+            });
+        }
+}
 
 document.addEventListener("DOMContentLoaded", function(){
+	search_btn.addEventListener('click', function(){
+		const key_word = search_bar.value.toLowerCase();
+		if(key_word){
+			document.querySelectorAll('.highlight').forEach(element){
+				element.immerHTML = element.innerHTML.replace(/<span class="highlight">(.*?)<\/span>/g, '$1');
+				element.classList.remove('highlight');
+			});
+			highlightArea(document.body, keyword);
+		}
+	});
+	
 	home_btn.addEventListener('click', function(){
 		toHome();
 		togleMenuButton(home_btn);
